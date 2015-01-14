@@ -1,24 +1,46 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
 	<title>Brian Levine</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="src/custom.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class = "container" id = "body_container"></div>
-	<!-- TODO: extend jumbotron to full length of one page -->
+	<div class = "body-container">
+		<div class = "header">
+			<div class = "bri-bar"> 
+				<!-- Navbar will start as logo. After scrolling past jumbotron, the rest of the bar 	expands -->
+				<div class = "logo">
+					<div class = "content-container">
+						<!-- TODO: LOGO GOES HERE -->
+					</div>
+				</div>
+					<div class = "nav-menu">
+						<div class = "content-container">
+							<ul>
+								<!-- TODO: PAGE NAV STUFF GOES HERE -->
+							</ul>
+						</div>
+					</div>
+					<div class = "nav-social">
+						<div class = "content-container">
+							<ul>
+								<!-- TODO: SOCIAL MEDIA LINKS: facebook, linkedin, github, etc-->
+							</ul>
+						</div>
+					</div>
+			</div>
+		</div>	
+		
 		<div class = "jumbotron">
-			<div class = "container"></div>
+			<div class = "content-container"></div>
 				<h1>Hello! Is it me you're looking for?</h1>
 			</div>
 		</div>
-
+	</div>
 	<!-- scripts for great justice -->
 	<script src="lib/jquery-1.11.1.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript" src="src/scripts.js"></script>
 </body>
 </html>
